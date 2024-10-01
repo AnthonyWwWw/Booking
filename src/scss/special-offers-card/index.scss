@@ -1,0 +1,116 @@
+.special-offers-card{
+    max-width: 370px;
+    min-width: 328px;
+}
+
+.special-offers-card__title{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.special-offers-card__description-room{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858585;
+}
+
+.special-offers-card__date{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+}
+
+.special-offers-card__price{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+
+    color: #2A90D9;
+
+    & span{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 133%;
+    }
+}
+
+.special-offers-card__details-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #858585;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.special-offers-card{
+    border: 1px solid #e7e6eb;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.special-offers-card__container-img{
+    position: relative;
+}
+
+.special-offers-card__img{
+    
+
+}
+
+.special-offers-card__title{
+    margin-top: 25px;
+}
+
+.special-offers-card__price{
+    margin-top: 20px;
+}
+
+.special-offers-card__details-conteiner{
+    margin-top: 15px;
+}
+
+.special-offers-card__rating{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 8px;
+    width: 67px;
+    height: 32px;
+    opacity: 0.8;
+    background-color: #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img{
+        width: 16px;
+        height: 16px;
+    }
+
+    & p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin-left: 4px;
+    }
+}
+
+.special-offers-card__add-to-favorite-conteiner{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.8;
+    background-color: #FFF;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}

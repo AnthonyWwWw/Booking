@@ -1,0 +1,198 @@
+@import '../nullStyle/index.scss';
+@import '../header/index.scss';
+@import '../footer/index.scss';
+@import '../special-offers-card/index.scss';
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1180px; 
+    margin: 0 auto;
+    padding: 0px 5px 0px 5px;
+}
+
+
+.main{
+    flex: 1;
+}
+
+.main__search-bar{
+    position: relative;
+}
+
+.main__search-bar-wrapper{
+    position: absolute;
+    left: 50%;
+    max-width: 570px;
+    border: 1px solid #d6d6d6;
+    background-color: #FFFFFF;
+    border-radius: 36px;
+    width: 570px;
+    height: 70px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+
+    display: flex;
+    align-items: center;
+
+    transform: translate(-50%, -35px);
+}
+
+.main__search-bar-form{
+    display: flex;
+    align-items: center;
+}
+
+.main__banner{
+    min-width: 360px;
+}
+
+.main__search-bar-submit{
+    width: 40px;
+    height: 40px;
+    background-color:  #EE685F;
+    border-radius: 50%;
+    margin-left: 82px;
+}
+
+.main__search-bar-submit-buttom-icon-loupe{
+    margin: 0 auto;
+}
+
+.main_seach-bar-input-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.main__search-bar-box{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+
+    &:first-child{
+        margin: 0px  99px 0px 25px;
+        position: relative;
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -79px;
+            width: 2px;
+            background-color: #EBEBEB;
+            height: 100%; 
+        }
+    }
+}
+
+.main__search-bar-input{ 
+    color:  #a3a3a3;
+    padding-right: 1px;
+    overflow: hidden;
+}
+
+.main__search-bar-input-destination{
+    width: 153px;
+}
+
+.main__search-bar-input-data{
+    width: 92px;
+}
+
+.main__search-bar-label{
+   
+}
+
+.main__search-bar-icon{
+    width: 22px;
+    height: 22px;
+}
+
+.section-why-choose-us__content{
+    padding-bottom: 74px;
+}
+
+.section-why-choose-us{
+    background-color: #F7F7F7;
+    margin-top: 139px;
+}
+
+.section-why-choose-us__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-why-choose-us__taitel{
+    margin-top: 66px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.section-why-choose-us__description{
+    max-width: 570px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.section-why-choose-us__cards-why-choose-us{
+    margin-top: 54px;
+}
+
+.section-why-choose-us__cards-why-choose-us{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 30px;
+}
+
+.cards-why-choose-us__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-why-choose-us__icon-conteiner{
+    background-color: #2a90d9;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-why-choose-us__taitel{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards-why-choose-us__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    text-align: center;
+}
+
+.section-special-offers__taitel{
+    margin-top: 96px;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section-special-offers__cards-conteiner{
+    margin-top: 60px;
+}
