@@ -1,7 +1,7 @@
 @import '../nullStyle/index.scss';
-@import '../header/index.scss';
 @import '../footer/index.scss';
 @import '../special-offers-card/index.scss';
+@import '../slider/index.scss';
 
 *{
     font-family: "Montserrat", sans-serif;
@@ -27,93 +27,8 @@
     position: relative;
 }
 
-.main__search-bar-wrapper{
-    position: absolute;
-    left: 50%;
-    max-width: 570px;
-    border: 1px solid #d6d6d6;
-    background-color: #FFFFFF;
-    border-radius: 36px;
-    width: 570px;
-    height: 70px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
-
-    display: flex;
-    align-items: center;
-
-    transform: translate(-50%, -35px);
-}
-
-.main__search-bar-form{
-    display: flex;
-    align-items: center;
-}
-
 .main__banner{
-    min-width: 360px;
-}
-
-.main__search-bar-submit{
-    width: 40px;
-    height: 40px;
-    background-color:  #EE685F;
-    border-radius: 50%;
-    margin-left: 82px;
-}
-
-.main__search-bar-submit-buttom-icon-loupe{
-    margin: 0 auto;
-}
-
-.main_seach-bar-input-box{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-}
-
-.main__search-bar-box{
-    display: flex;
-    align-items: center;
-    font-weight: 400;
-    font-size: 16px;
-
-    &:first-child{
-        margin: 0px  99px 0px 25px;
-        position: relative;
-
-        &::before{
-            content: "";
-            position: absolute;
-            top: 0;
-            right: -79px;
-            width: 2px;
-            background-color: #EBEBEB;
-            height: 100%; 
-        }
-    }
-}
-
-.main__search-bar-input{ 
-    color:  #a3a3a3;
-    padding-right: 1px;
-    overflow: hidden;
-}
-
-.main__search-bar-input-destination{
-    width: 153px;
-}
-
-.main__search-bar-input-data{
-    width: 92px;
-}
-
-.main__search-bar-label{
-   
-}
-
-.main__search-bar-icon{
-    width: 22px;
-    height: 22px;
+    margin-top: 71px;
 }
 
 .section-why-choose-us__content{
